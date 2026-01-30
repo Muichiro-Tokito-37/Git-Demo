@@ -49,7 +49,8 @@ git push origin main
 # creating new repo locally (init):
 <!-- init: used to create a new git repo, locally, we will now have a .git folder in the same repo, which is where meta data of repo is stored. ENTER git init INSIDE THE FOLDER WHICH YOU WANT TO CONVERT INTO A NEW REPO -->
 git init
-git remote add origin <-link-> 
+git remote add <-remote-name-> <-remote-url->
+<!-- git remote add origin <-link->, origin is the name given to the remote repo  -->
 git remote -v           (to verify remote, simply:confirm the REPO where we are pull/fetch ing files from and push ing files to )
 git branch              (to check branch)  
 git branch -M main      (to rename branch)
